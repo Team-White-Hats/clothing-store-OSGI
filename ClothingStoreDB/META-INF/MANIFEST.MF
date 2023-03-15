@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ClothingStoreDB
+Bundle-SymbolicName: ClothingStoreDB
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.osgi.clothingstoredb.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: ClothingStoreDB
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.osgi.clothingstoredb
+Require-Bundle: com.mysql.jdbc
